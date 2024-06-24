@@ -8,7 +8,7 @@ class Vampire {
 
   /** Simple tree methods **/
 
-  // Adds the vampire as an offspring of this vampire
+  // Adds the vampire as an offspring of this_ Vampire/
   addOffspring(vampire) {
     this.offspring.push(vampire);
     vampire.creator = this;
